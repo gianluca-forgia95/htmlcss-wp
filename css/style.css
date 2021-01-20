@@ -25,6 +25,7 @@ p  {
   color: #929292;
 }
 
+
 /* /mix */
 
 /* navigazione pagina */
@@ -54,6 +55,18 @@ ul {
 
 }
 /* /navigazione pagina */
+/* overlay  */
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  z-index: 1;
+}
+/*/ overlay  */
 /* banner principale */
 .banner {
   width: 100%;
@@ -65,16 +78,7 @@ ul {
   z-index: 0;
 
 }
-.overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  z-index: 1;
-}
+
 .text-banner {
 padding: 350px;
 padding-left: 100px;
@@ -117,6 +121,9 @@ h2 p {
   float: left;
   margin-bottom: 10px;
 }
+.text-box {
+  margin-top: 20px;
+}
 
 .img-sx {
   width: 100%;
@@ -143,6 +150,7 @@ h2 p {
   background-position: center;
   background-size: cover;
   border-radius: 15px;
+  position: relative;
 }
 .img-dx {
   width: 100%;
@@ -151,6 +159,7 @@ h2 p {
   background-position: center;
   background-size: cover;
   border-radius: 15px;
+  position: relative;
 
 }
 
