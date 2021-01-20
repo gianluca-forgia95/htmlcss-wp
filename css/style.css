@@ -8,6 +8,8 @@
 body {
   width: 80%;
   margin: auto;
+  font-family: 'Montserrat', sans-serif;
+
 }
 section {
   border-radius: 20px;
@@ -27,7 +29,6 @@ height: 80px;
 }
 
 nav li  {
-  font-family: 'Montserrat', sans-serif;
   display: inline-block;
   margin-top: 40px;
   padding: 10px;
@@ -52,7 +53,7 @@ ul {
 
 }
 .text-banner {
-font-family: 'Montserrat', sans-serif;
+
 padding: 350px;
 padding-left: 100px;
 color: black;
@@ -75,7 +76,6 @@ font-size: 20px;
   background-color: lightblue;
   margin: 0 0 1% 0;
   border-radius: 20px;
-  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
 
 
@@ -97,6 +97,14 @@ p {
   background-color: lightblue;
   float: left;
   margin-bottom: 10px;
+}
+.img-sx {
+  width: 100%;
+  height: 200px;
+  background-image: url('../img/img-1.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
 }
 
  .cent {
