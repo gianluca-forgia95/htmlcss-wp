@@ -4,10 +4,15 @@
   padding: 0;
 }
 
+/* mix */
 body {
   width: 80%;
   margin: auto;
 }
+section {
+  border-radius: 20px;
+}
+/* /mix */
 
 /* navigazione pagina */
 .navigazione {
@@ -50,6 +55,7 @@ ul {
   height: 100px;
   background-color: lightblue;
   margin: 0 0 1% 0;
+  border-radius: 20px;
 
 }
 
