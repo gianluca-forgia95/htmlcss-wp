@@ -12,8 +12,23 @@ body {
 /* navigazione pagina */
 .navigazione {
   height: 150px;
-  background-color: purple;
+  background-color: white;
   margin-top:1%;
+}
+#logo {
+width: 200px;
+height: 80px;
+
+}
+
+nav li {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  margin-top: 40px;
+  padding: 10px;
+}
+ul {
+  list-style: none;
 }
 /* /navigazione pagina */
 /* banner principale */
