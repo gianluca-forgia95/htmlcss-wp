@@ -80,9 +80,9 @@ ul {
 }
 
 .text-banner {
-padding: 350px;
+padding: 370px;
 padding-left: 100px;
-width: 80%;
+width: 90%;
 font-size: 20px;
 color: white;
 
@@ -181,7 +181,12 @@ footer {
   text-align: center;
   margin: 2% 0;
   padding: 30px;
-  font-size: 17px;
+  font-size: 20px;
+}
+.heart {
+  color: red;
+
+
 }
 
 
